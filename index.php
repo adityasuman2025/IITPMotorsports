@@ -39,7 +39,7 @@
 </head>
 <body>
 
-<!-------preloader--------->
+<!-------preloader---------->
 <div class="preloader_div">
 	<img class="loader_logo" src="img/supra.1.png">
 	
@@ -96,13 +96,21 @@
 	</div>
 	
 	<br>
-<!--slider header--->
+<!--slider header---->
 	<div class="slideshow">
 		<ul class="slider">
 			<li>
-				<img src="img/pic1.jpg"/>
+
+				<img src="img/pic6.jpg"/>
 				<div id="tags">
-					TEAM SUPRA 2017
+					IITP Motorsports
+				</div>
+			</li>
+			<li>
+
+				<img src="img/pic1.1.jpg"/>
+				<div id="tags">
+					IITP Motorsports Team 2k17
 				</div>
 			</li>
 			<li>
@@ -112,21 +120,27 @@
 				</div>
 			</li>
 			<li>
-				<img src="img/pic3.jpg"/>
+				<img src="img/pic3.1.jpg"/>
 				<div id="tags">
-					SAE CLUB MEET
+					IITP Motorsports Intro 2k17
+				</div>
+			</li>
+			<li>
+				<img src="img/pic7.jpg"/>
+				<div id="tags">
+					OUR SUPRA CAR OF 2k17
 				</div>
 			</li>
 			<li>
 				<img src="img/pic4.jpg"/>
 				<div id="tags">
-					JARVIS (OUR SUPRA CAR OF 2016) 
+					JARVIS (OUR SUPRA CAR OF 2k16) 
 				</div>
 			</li>
 			<li>
 				<img src="img/pic5.jpg"/>
 				<div id="tags">
-					TEAM SUPRA 2016
+					TEAM SUPRA 2k16
 				</div>
 			</li>
 		</ul>
@@ -274,7 +288,7 @@
 		<br><br>
 		
 		<div id="final_footer">
-			<span>copyright &copy 2017 IITP Motorsports<?php echo " | site visits: $currentcnt";?></span>
+			<span>copyright &copy 2017 IITP Motorsports</span>
 			<br>
 			All Right Reserved
 			<br>
