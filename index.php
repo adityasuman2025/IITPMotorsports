@@ -103,7 +103,7 @@
 
 				<img src="img/pic6.jpg"/>
 				<div id="tags">
-					IITP Motorsports
+					
 				</div>
 			</li>
 			<li>
