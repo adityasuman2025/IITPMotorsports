@@ -170,7 +170,7 @@ body
 	background: white;
 	height: auto;
 	text-align: center;
-	box-shadow: 1px 1px 5px black;
+	box-shadow: .2px .2px 5px grey;
 	position: fixed;
 	width:100%;
 	padding-top:.8%;
@@ -251,21 +251,6 @@ body
 	opacity:0;
 }
 
-/*---latest updates div---*/
-.updates
-{
-	displaY: none;
-	height: 250px;
-	background: #e0e0e0;
-	padding: 20px;
-	box-shadow: 1px 1px 2px black;
-}
-
-.updates_head
-{
-	text-align: center;
-	transition: 1s;
-}
 
 /*---about div and fb box---*/
 .about_div
@@ -277,17 +262,21 @@ body
 
 .fb_box
 {
-	padding-top: 2%;
 	margin-left: 1%;
 	width: 23%;
 	displaY: inline-block;
 	vertical-align: top;
-	background: #e0e0e0;
 	text-align: center;
-	height: 680px;
+	height: auto;
 }
 
-.fb_box span
+.fb_div
+{
+	background: #e0e0e0;
+	padding: 2%;
+}
+
+.fb_div span
 {
 	font-size: 130%;
 }
@@ -296,9 +285,45 @@ body
 {
 	margin: auto;
 	display: block;
-	//background: green;
 	text-align: center;
 }
+
+
+/*---latest updates div---*/
+.updates
+{
+	margin-top:10%;
+	display:block;
+	height: 300px;
+	width: 90%;
+	background: #e0e0e0;
+	padding: 4%;
+	overflow: scroll;
+}
+
+.updates_head
+{
+	text-align: center;
+	transition: 1s;
+}
+
+.updates_title
+{
+	color: black;
+	text-align: left;
+	font-size: 110%;
+	border-bottom: 1px solid black;
+	width: 70%;
+	margin-bottom: 2%;
+}
+
+.updates_data
+{
+	color: grey;
+	text-align: left;
+	padding-left: 3%;
+}
+
 
 /*---about iit patna div---*/
 .about_iitp
@@ -485,6 +510,61 @@ body
 	transition: 1.5s;
 	margin-right: 3%;
 	animation-delay: .7s;
+}
+
+#spons_cov
+{
+	width: 100%;
+	//filter: blur(3px);
+	transition: .8s;
+}
+.partners_sev
+{
+	width: 90%;
+	margin:auto;
+	padding: 3%;
+	text-align: center;
+	//border: double 2px black;
+	transition: 1.5s;
+}
+
+
+.partners_sev img
+{
+	max-width: 170px;
+	display: inline-block;
+	vertical-align: middle;
+	transition: 1.5s;
+	margin-right: 3%;
+	animation-delay: .7s;
+}
+
+.why_spons
+{
+	width: 70%;
+	margin: auto;
+	background: #e0e0e0;;
+	padding: 15px;
+}
+
+.why_spons h1
+{
+	text-align: center;
+}
+
+.why_spons_cont
+{
+	font-size: 110%;
+}
+
+.why_spons_cont_img
+{
+	width: 80%;
+	display: block;
+	margin: auto;
+	border: white 5px solid;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
 }
 
 /*-------------team page-----------*/
@@ -1170,9 +1250,26 @@ body
 		width: 100%;
 	}
 	
-	.fb_box
+	.fb_div
 	{
 		displaY: none;
+	}
+
+	.fb_box
+	{
+		width: 100%;
+		margin: auto;
+		margin-top:10%;
+		display: block;
+		height: auto;
+		
+	}
+	.updates
+	{
+		width: 80%;
+		margin: auto;
+		//background: red;
+		height: auto;
 	}
 }
 

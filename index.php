@@ -77,7 +77,7 @@
 			<li><a href="gallery.html">GALLERY</a></li>
 			<li><a href="team.html">TEAM</a></li>
 			<li><a href="contact_us.html">CONTACTS</a></li>
-			<li><a href="">SPONSORS</a></li>
+			<li><a href="spons.html">SPONSORS</a></li>
 		</ul>
 		
 		<div class="menu_mob">
@@ -88,12 +88,11 @@
 				<li><a href="gallery.html">GALLERY</a></li>
 				<li><a href="team.html">TEAM</a></li>
 				<li><a href="contact_us.html">CONTACTS</a></li>
-				<li><a href="">SPONSORS</a></li>
-			</ul>	
-				
+				<li><a href="spons.html">SPONSORS</a></li>
+			</ul>
 		</div>
-		
 	</div>
+	
 	
 	<br>
 <!--slider header---->
@@ -148,17 +147,9 @@
 	<br>
 	<br><br>
 	
-<!--latest updates div--->
-	<div class="updates">
-		<h1 class="updates_head top_entry">
-			Latest Updates
-		</h1>
-		
-	</div>
-	<br>
 <!----------abouts div------------>
 	<div class="about_div">
-	<!--about iitp motorsports div--->	
+	<!--about iitp motorsports div---->	
 		<div class="about_iitpmotor">
 		
 			<div class="iitpmotor_head top_entry">
@@ -183,7 +174,7 @@
 		<br>
 		<br>
 		
-	<!--about sae div--->	
+	<!--about sae div---->	
 
 		<div class="about_sae">
 		
@@ -208,7 +199,7 @@
 		<br>
 		<br>
 
-	<!--about iitp div--->
+	<!--about iitp div---->
 		<div class="about_iitp">
 		
 			<div class="iitp_head top_entry">
@@ -231,14 +222,69 @@
 		</div>
 	
 	</div>
+
+<!--------sidebar div---------->
 	<div class="fb_box">
-		<span>IITP Motorsports on facebook</span>
-		<hr>
-		<br>
-		
-		<div id="fb_iframe">
-			<iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fteamsupraiitpatna&amp;width=300&amp;height=600&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=416206288509930" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; height: 1000px;" allowtransparency="true"></iframe>
+		<div class="fb_div">
+			<span>IITP Motorsports on facebook</span>
+			<hr>
+			<br>
+			
+			<div id="fb_iframe">
+				<iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fteamsupraiitpatna&amp;width=300&amp;height=600&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=416206288509930" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; height: 700px;" allowtransparency="true"></iframe>
+			</div>
 		</div>
+
+
+		<!--latest updates div---->
+		<div class="updates">
+			<h3 class="updates_head">
+				Latest Updates
+			</h3>
+			<div class="updates_content">
+				<?php
+					$host = "localhost";
+					$user = "u603316283_mngo";
+					$pass = "iitpmotorsports";
+					$db = "u603316283_notif";
+					$link = mysqli_connect($host, $user, $pass, $db);
+
+					if($link = mysqli_connect($host, $user, $pass, $db))
+					{
+						//echo "ok<br>";
+
+						$query = "SELECT title, content FROM notification ORDER BY id";
+						//$title_query = "SELECT content FROM notification";
+
+						if($query_run = mysqli_query($link, $query))
+						{
+							//echo 'gud';
+							//$query_data = mysql_fetch_assoc($query_run);
+
+							while($query_data = mysqli_fetch_assoc($query_run))
+							{
+								$title = $query_data['title'];
+								$content = $query_data['content'];
+
+								echo "<div class=\"updates_title\">$title</div>";
+								echo "<div class=\"updates_data\">$content</div>";
+							}
+						}
+						else
+						{
+							echo 'bad';
+						}
+
+					}
+					else
+					{
+						echo 'database fail to connect';
+					}
+				?>
+			</div>
+			
+		</div>
+		<br>
 	</div>
 	<br><br>
 <!------partners div------>
