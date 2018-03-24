@@ -153,7 +153,7 @@
 		<div class="about_iitpmotor">
 		
 			<div class="iitpmotor_head top_entry">
-				<b>IITP MOTORSPORTS (Mukesh)</b>
+				<b>IITP MOTORSPORTS</b>
 			</div>
 			
 			<div class="iitpmotor_content">
