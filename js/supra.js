@@ -1,7 +1,7 @@
 /*-------menu--------*/
 $('.menu li a').mouseover(function()
 {
-	$(this).addClass('menu_li_a_hover').css('color','orange');
+	$(this).addClass('menu_li_a_hover').css('color','#c03600');
 }).mouseleave(function()
 {
 	$(this).removeClass('menu_li_a_hover').css('color','');
@@ -31,59 +31,6 @@ $(document).scroll(function()
 	else
 	{
 		$('.menu_bar').css('top','').css('left','');
-	}
-	
-/*-----updates div animation---*/
-	var updates_posn = $('.updates').offset().top/2;
-	
-	if(posn > updates_posn)
-	{
-		$('.updates_head').removeClass('top_entry');
-	}
-	
-/*-----about iitp div animation---*/
-	var about_iitp_posn = $('.about_iitp').offset().top/1.6;
-	
-	if(posn > about_iitp_posn)
-	{
-		$('.iitp_head').removeClass('top_entry');
-		$('.iitp_text').removeClass('top_entry');
-		$('.iitp_img').removeClass('bottom_entry');
-	}
-
-/*-----about sae div animation---*/
-	var about_sae_posn = $('.about_sae').offset().top/1.4;
-	
-	if(posn > about_sae_posn)
-	{
-		$('.sae_head').removeClass('top_entry');
-		$('.sae_text').removeClass('top_entry');
-		$('.sae_img').removeClass('bottom_entry');
-	}
-	
-/*-----about iitpmotosports div animation---*/
-	var about_iitpmotor_posn = $('.about_iitpmotor').offset().top/1.3;
-	
-	if(posn > about_iitpmotor_posn)
-	{
-		$('.iitpmotor_head').removeClass('top_entry');
-		$('.iitpmotor_text').removeClass('top_entry');
-		$('.iitpmotor_img').removeClass('bottom_entry');
-	}
-	
-/*---partners div-----*/
-	var partners = $('.partners').offset().top/1.2;
-	
-	if(posn > partners)
-	{
-		//$('.partners').removeClass('top_entry');
-		
-		$('.partners img').each(function()
-		{
-			//src= $(this).attr('src');
-			//alert(src);
-			$(this).removeClass('top_entry').delay(1000);
-		});
 	}
 });
 

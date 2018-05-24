@@ -40,17 +40,19 @@
 <body>
 
 <!-------preloader---------->
-<div class="preloader_div">
-	<img class="loader_logo" src="img/supra.1.png">
-	
-	<div class="loading">
-		
-		<img src="img/car_loader.png">
-		<br>
-		...loading...
-		
+	<div class="preloader_div">
+		<img class="loader_logo" src="img/supra.png">
+		<img class="loader_text_logo" src="img/motor.png">
+
+		<div class="loading">
+			<img src="img/car_loader.png">
+			<br>
+			...loading...
+			<br><br>
+
+			<span class="edition">themed on <span>2018</span> <span>edition</span></span>
+		</div>
 	</div>
-</div>
 
 <!-------menu bar-------->
 	<div id="header">
@@ -61,14 +63,8 @@
 		</div>
 		
 		<div id="text_logo">
-			<img src="img/motor.jpg"/>
+			<img src="img/motor.png"/>
 		</div>
-		
-		<!--div id="iitp_logo">
-			<a target="_blank" href="http://www.iitp.ac.in">
-				<img src="img/iitp.png"/>
-			</a>
-		</div-->
 	</div>
 	
 	<div class="menu_bar">
@@ -95,51 +91,46 @@
 	
 	
 	<br>
-<!--slider header---->
+
+<!-----slider header---->
 	<div class="slideshow">
 		<ul class="slider">
-			<li>
 
-				<img src="img/pic6.jpg"/>
+			<li>
+				<img src="img/pic1.jpeg"/>
 				<div id="tags">
 					
 				</div>
 			</li>
 			<li>
 
-				<img src="img/pic1.1.jpg"/>
+				<img src="img/pic2.jpeg"/>
 				<div id="tags">
-					IITP Motorsports Team 2k17
+					Intro Session 2k17
 				</div>
 			</li>
 			<li>
-				<img src="img/pic2.jpg"/>
+				<img src="img/pic3.jpeg"/>
 				<div id="tags">
-					MECHANICAL WORKSHOP
+					IITP Motorsports 2k18
 				</div>
 			</li>
 			<li>
-				<img src="img/pic3.1.jpg"/>
+				<img src="img/pic4.jpeg"/>
 				<div id="tags">
-					IITP Motorsports Intro 2k17
+					Our Workshop
 				</div>
 			</li>
 			<li>
-				<img src="img/pic7.jpg"/>
+				<img src="img/pic5.jpeg"/>
 				<div id="tags">
-					OUR SUPRA CAR OF 2k17
+					Team 2k17
 				</div>
 			</li>
 			<li>
-				<img src="img/pic4.jpg"/>
+				<img src="img/pic6.jpeg"/>
 				<div id="tags">
-					JARVIS (OUR SUPRA CAR OF 2k16) 
-				</div>
-			</li>
-			<li>
-				<img src="img/pic5.jpg"/>
-				<div id="tags">
-					TEAM SUPRA 2k16
+					Supra Car 2k17
 				</div>
 			</li>
 		</ul>
@@ -149,94 +140,72 @@
 	
 <!----------abouts div------------>
 	<div class="about_div">
-	<!--about iitp motorsports div---->	
-		<div class="about_iitpmotor">
-		
-			<div class="iitpmotor_head top_entry">
-				<b>IITP MOTORSPORTS</b>
-			</div>
-			
-			<div class="iitpmotor_content">
-				<div class="iitpmotor_img bottom_entry">
-					<a href="http://iitpmotorsports.in"><img src="img/supra.1.png"/></a>
-				</div>
-				
-				<div class="iitpmotor_text top_entry">
-					IITP Motorsports, is a reputed team to design and manufacture one of the finest formula racing cars from India. Eventually, our car shall only 
-					remain the best designed India car, but unfortunetly not the best manufactured one. 
-					<br>
-					Team from IIT Patna is taking part in SUPRA SAEINDIA since 2014. The project puts forward the task of designing, manufacturing,
-					raising funds, marketing, logistics, extensive testing and racing, on the shoulders of our dedicated, skilled and determined team members.
-				
-				</div>
-			</div>
-		</div>
-		<br>
-		<br>
-		
-	<!--about sae div---->	
 
-		<div class="about_sae">
-		
-			<div class="sae_head top_entry">
-				<b>SUPRA SAEINDIA</b>
-			</div>
-			
-			<div class="sae_content">
-				<div class="sae_text top_entry">
-					SUPRA SAEINDIA is a great event which gives a real platfrom to students to test their engineering skills and refine them by learning from their 
-					little mistakes. Each team designs, manufactures, validates and races a formula 1 prototype. In 2008, Formula SAEINDIA was launched with the name of SUPRA SAEINDIA. This event provides a real world engineering challenge 
-					for the SAEINDIA student members that reflects the steps involved in the entire process from design and engineering to production to marketing and 
-					endurance.
-				</div>
-				
-				<div class="sae_img bottom_entry">
-					<a href="http://suprasaeindia.org"><img src="img/sae.png"/></a>
-				</div>
-				
+	<!--about iitp motorsports div---->
+		<div class="container">
+			<h2>IITP MOTORSPORTS</h2>
+			<br>
+
+			<div>
+				<a href="http://iitpmotorsports.in"><img src="img/supra.png"/></a>
+				<br>
+				IITP Motorsports, is a reputed team to design and manufacture one of the finest formula racing cars from India. Eventually, our car shall only 
+				remain the best designed India car, but unfortunetly not the best manufactured one. 
+				<br>
+				Team from IIT Patna is taking part in SUPRA SAEINDIA since 2014. The project puts forward the task of designing, manufacturing,
+				raising funds, marketing, logistics, extensive testing and racing, on the shoulders of our dedicated, skilled and determined team members.
 			</div>
 		</div>
-		<br>
-		<br>
+		<br><br>
+
+	<!--about sae div---->	
+		<div class="container">
+			<h2>SUPRA SAEINDIA</h2>
+			<br>
+
+			<div>
+				SUPRA SAEINDIA is a great event which gives a real platfrom to students to test their engineering skills and refine them by learning from their 
+				little mistakes. Each team designs, manufactures, validates and races a formula 1 prototype. In 2008, Formula SAEINDIA was launched with the name of SUPRA SAEINDIA. This event provides a real world engineering challenge 
+				for the SAEINDIA student members that reflects the steps involved in the entire process from design and engineering to production to marketing and 
+				endurance.
+				<br><br>
+
+				<a href="http://suprasaeindia.org"><img src="img/sae.png"/></a>
+			</div>
+		</div>
+		<br><br>
 
 	<!--about iitp div---->
-		<div class="about_iitp">
-		
-			<div class="iitp_head top_entry">
-				<b>IIT PATNA</b>
-			</div>
-			
-			<div class="iitp_content">
-				<div class="iitp_img bottom_entry">
-					<a href="http://www.iitp.ac.in"><img src="img/iitp_img.png"/></a>
-				</div>
-				
-				<div class="iitp_text top_entry">
-					The Indian Institute of Technology Patna is an autonomous institue of education and research in science, engineering and technology located in 
-					Patna, Bihar, India. It is recognized as an Institute of National Importance by the Government of India.
-					<br>
-					IIT Patna was ranked 10 in 2016 and 19 in 2017 in engineering category in National Institutional Ranking Framework (NIRF) published by MHRD.
-					
-				</div>
+		<div class="container">
+			<h2>IIT PATNA</h2>
+			<br>
+
+			<div>
+				<a href="http://www.iitp.ac.in"><img src="img/iitp_img.png"/></a>
+				<br>
+
+				The Indian Institute of Technology Patna is an autonomous institue of education and research in science, engineering and technology located in 
+				Patna, Bihar, India. It is recognized as an Institute of National Importance by the Government of India.
+				<br>
+				IIT Patna was ranked 10 in 2016 and 19 in 2017 in engineering category in National Institutional Ranking Framework (NIRF) published by MHRD.
 			</div>
 		</div>
+		<br><br>
 	
 	</div>
 
 <!--------sidebar div---------->
 	<div class="fb_box">
 		<div class="fb_div">
-			<span>IITP Motorsports on facebook</span>
-			<hr>
 			<br>
+			<h3>IITP Motorsports on facebook</h3>
 			
 			<div id="fb_iframe">
 				<iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fteamsupraiitpatna&amp;width=300&amp;height=600&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=416206288509930" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; height: 700px;" allowtransparency="true"></iframe>
 			</div>
 		</div>
 
-
-		<!--latest updates div---->
+	<!--latest updates div---->
 		<div class="updates">
 			<h3 class="updates_head">
 				Latest Updates
@@ -287,9 +256,10 @@
 		<br>
 	</div>
 	<br><br>
+
 <!------partners div------>
 	<div class="partners">
-		<h1 class="part_head">Partners</h1>
+		<h1 class="part_head">Our Previous Partners</h1>
 		<a target ="_blank" href="https://incredibleindia.org/"><img  class="top_entry"  src="img/india.png"/></a>
 		<a target ="_blank" href="http://www.ktm.com/in/"><img class="top_entry" src="img/ktm.jpg"/></a>
 		<a target ="_blank" href="https://www.ketto.org/"><img  class="top_entry"  src="img/ketto.jpg"/></a>
@@ -327,8 +297,10 @@
 		<div id="web_address">
 			<h2> Follow Us</h2>
 			<hr>
+
 			<p><a href="https://www.facebook.com/teamsupraiitpatna" target="_blank"> <img src="img/facebook.png"> Facebook </a></p>
-			
+			<p><a href="https://www.instagram.com/iitpmotorsports/" target="_blank"> <img src="img/insta.png"> Instagram </a></p>
+			<p><a href="https://www.linkedin.com/in/iitp-motorsports-453b5a161/" target="_blank"> <img src="img/linked.png"> Linkedin </a></p>
 			<p><a href="https://twitter.com/supraiitpatna" target="_blank"> <img src="img/twitter.png"> Twitter </a></p>
 		</div>
 		<br><br>
@@ -338,11 +310,11 @@
 			<br>
 			All Right Reserved
 			<br>
-			<span id="mngo">Site developed and managed by: <a target="_blank" href="http://www.mngo.in/aditya.php">Aditya Suman</a></span>
+			<span id="mngo">site developed and managed by: <a target="_blank" href="http://adityasuman.mngo.in">Aditya Suman</a></span>
 		</div>
 	</div>
 	
-	
+<!----------script---------->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery-ui.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
@@ -364,7 +336,7 @@
 				left: '10000px',
 			}, 5000);
 			
-			$('.preloader_div').delay(200).fadeOut(1500);
+			$('.preloader_div').delay(100).fadeOut(500);
 		});
 		
 	</script>
@@ -374,6 +346,6 @@
 
 
 <?php
-	fclose($handlecnt);
-	fclose($handleip);	
+	// fclose($handlecnt);
+	// fclose($handleip);	
 ?>
