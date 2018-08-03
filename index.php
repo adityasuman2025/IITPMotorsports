@@ -1,22 +1,4 @@
 <!---developer: Aditya Suman (www.mngo.in/aditya.php)---->
-<?php
-	
-	// $ip = $_SERVER["REMOTE_ADDR"];
-	// date_default_timezone_set('Asia/Kolkata');
-	// $time = date ("H:i:s", time());
-	// $date = date ("d M Y", time());
-	
-	
-	// $handleip =fopen('ip.txt', 'a');
-	// $handlecnt= fopen('count.txt', 'r');
-	// $currentcnt= fread($handlecnt, 1342177);
-	// fwrite($handleip, "$currentcnt :---> \t \t $ip  \t \t Time :--> \t $time \t \t Date:--> \t $date \n");
-	
-	
-	// $newcnt= $currentcnt + 1;
-	// $handlecnt= fopen('count.txt', 'w');
-	// fwrite($handlecnt, $newcnt);	
-?>
 
 <html>
 <head>
@@ -97,40 +79,51 @@
 		<ul class="slider">
 
 			<li>
-				<img src="img/pic1.jpeg"/>
+				<img src="img/pic1.jpg"/>
 				<div id="tags">
 					
 				</div>
 			</li>
 			<li>
 
-				<img src="img/pic2.jpeg"/>
+				<img src="img/pic2.jpg"/>
+				<div id="tags">
+				</div>
+			</li>
+			<li>
+				<img src="img/pic3.jpg"/>
+				<div id="tags">
+					Buddha International Circuit
+				</div>
+			</li>
+			<li>
+				<img src="img/pic4.jpg"/>
+				<div id="tags">
+					TI Stickers
+				</div>
+			</li>
+			<li>
+				<img src="img/pic5.jpg"/>
+				<div id="tags">
+					Ready for the Presentation
+				</div>
+			</li>
+			<li>
+				<img src="img/pic6.jpg"/>
+				<div id="tags">
+					The Car
+				</div>
+			</li>
+			<li>
+				<img src="img/pic7.jpg"/>
+				<div id="tags">
+					Lined-Up for the Endurance
+				</div>
+			</li>
+			<li>
+				<img src="img/pic8.jpeg"/>
 				<div id="tags">
 					Intro Session 2k17
-				</div>
-			</li>
-			<li>
-				<img src="img/pic3.jpeg"/>
-				<div id="tags">
-					IITP Motorsports 2k18
-				</div>
-			</li>
-			<li>
-				<img src="img/pic4.jpeg"/>
-				<div id="tags">
-					Our Workshop
-				</div>
-			</li>
-			<li>
-				<img src="img/pic5.jpeg"/>
-				<div id="tags">
-					Team 2k17
-				</div>
-			</li>
-			<li>
-				<img src="img/pic6.jpeg"/>
-				<div id="tags">
-					Supra Car 2k17
 				</div>
 			</li>
 		</ul>
@@ -206,7 +199,7 @@
 		</div>
 
 	<!--latest updates div---->
-		<div class="updates">
+		<!-- <div class="updates">
 			<h3 class="updates_head">
 				Latest Updates
 			</h3>
@@ -252,22 +245,28 @@
 				?>
 			</div>
 			
-		</div>
+		</div> -->
 		<br>
 	</div>
 	<br><br>
 
 <!------partners div------>
 	<div class="partners">
-		<h1 class="part_head">Our Previous Partners</h1>
-		<a target ="_blank" href="https://incredibleindia.org/"><img  class="top_entry"  src="img/india.png"/></a>
-		<a target ="_blank" href="http://www.ktm.com/in/"><img class="top_entry" src="img/ktm.jpg"/></a>
-		<a target ="_blank" href="https://www.ketto.org/"><img  class="top_entry"  src="img/ketto.jpg"/></a>
-		<a target ="_blank" href="https://www.centralbank.net.in/jsp/startMain.jsp"><img  class="top_entry" src="img/cbi.png"/></a>
-		<a target ="_blank" href="http://bseidc.in/"><img class="top_entry" src="img/be.png"/></a>
-		<a target ="_blank" href="http://eecd.in/"><img class="top_entry" src="img/estate.png"/></a>
-		<a target ="_blank" href="http://brpnn.bih.nic.in/"><img class="top_entry" src="img/bihar.jpg"/></a>
-		
+		<h1 class="part_head">Our Sponsors</h1>
+		<a target ="_blank" href="http://www.rodicconsultants.com/"><img id="title_sponsor" class="top_entry"  src="img/spons/rodic.png"/></a>
+		<br>
+		<div>Title Sponsor</div>
+		<br>
+
+		<!-- <a target ="_blank" href="http://www.ktm.com/in/"><img class="top_entry" src="img/spons/ktm.jpg"/></a> -->
+		<a target ="_blank" href="http://bseidc.in/"><img class="top_entry" src="img/spons/bseidc.png"/></a>
+		<a target ="_blank" href="https://nationalinsuranceindia.nic.co.in/"><img class="top_entry" src="img/spons/nic.jpg"/></a>
+		<br>
+
+		<a target ="_blank" href="https://www.livehindustan.com/"><img class="top_entry" src="img/spons/hindustan.jpg"/></a>
+		<br>
+		<div>Media Partner</div>
+
 	</div>
 	<br><br>
 	
@@ -302,6 +301,7 @@
 			<p><a href="https://www.instagram.com/iitpmotorsports/" target="_blank"> <img src="img/insta.png"> Instagram </a></p>
 			<p><a href="https://www.linkedin.com/in/iitp-motorsports-453b5a161/" target="_blank"> <img src="img/linked.png"> Linkedin </a></p>
 			<p><a href="https://twitter.com/supraiitpatna" target="_blank"> <img src="img/twitter.png"> Twitter </a></p>
+			<p><a href="https://www.youtube.com/channel/UCYzJrjjdxZ68DXrmY1RP0hg" target="_blank"> <img src="img/yt.png"> Youtube </a></p>
 		</div>
 		<br><br>
 		
@@ -331,21 +331,15 @@
 		/*-----preloader stuffs--------*/
 		$(window).on('load',function()
 		{
-			$('.preloader_div *').delay(100).animate(
+			$('.preloader_div *').delay(50).animate(
 			{
 				left: '10000px',
 			}, 5000);
 			
-			$('.preloader_div').delay(100).fadeOut(500);
+			$('.preloader_div').delay(50).fadeOut(500);
 		});
 		
 	</script>
 	
 </body>
 </html>
-
-
-<?php
-	// fclose($handlecnt);
-	// fclose($handleip);	
-?>

@@ -399,6 +399,19 @@ body
 		animation-delay: .7s;
 	}
 
+	#title_sponsor
+	{
+		max-width: 250px;
+	}
+
+
+	.partners div
+	{
+		padding: 10px;
+		font-size: 130%;
+		font-weight: bold;
+	}
+
 	#spons_cov
 	{
 		width: 100%;
@@ -428,10 +441,11 @@ body
 
 	.why_spons
 	{
-		width: 70%;
+		width: 80%;
 		margin: auto;
-		background: #e0e0e0;;
-		padding: 15px;
+		background: #f1f1f1;;
+		padding: 10px;
+		border-radius: 4px;
 	}
 
 	.why_spons h1
@@ -446,12 +460,15 @@ body
 
 	.why_spons_cont_img
 	{
-		width: 80%;
-		display: block;
-		margin: auto;
-		border: white 5px solid;
+		text-align: center;
+	}
+
+	.why_spons_cont_img img
+	{
+		width: 40%;
+		margin: 10px;
+		vertical-align: middle;
 		border-radius: 5px;
-		box-shadow: 1px 1px 5px black;
 	}
 
 /*-------------team page-----------*/
@@ -941,6 +958,9 @@ body
 	#forgrnd img
 	{
 		width: 22%;
+		height: 200px;
+		object-fit: cover;
+		object-position: center;
 		vertical-align: middle;
 		padding: 1%;
 		cursor: pointer;
