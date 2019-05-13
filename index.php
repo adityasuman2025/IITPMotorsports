@@ -157,13 +157,14 @@
 			<br>
 
 			<div>
+				<a href="http://suprasaeindia.org"><img src="img/sae.png"/></a>
+				<br>
 				SUPRA SAEINDIA is a great event which gives a real platfrom to students to test their engineering skills and refine them by learning from their 
 				little mistakes. Each team designs, manufactures, validates and races a formula 1 prototype. In 2008, Formula SAEINDIA was launched with the name of SUPRA SAEINDIA. This event provides a real world engineering challenge 
 				for the SAEINDIA student members that reflects the steps involved in the entire process from design and engineering to production to marketing and 
 				endurance.
 				<br><br>
 
-				<a href="http://suprasaeindia.org"><img src="img/sae.png"/></a>
 			</div>
 		</div>
 		<br><br>
@@ -194,7 +195,7 @@
 			<h3>IITP Motorsports on facebook</h3>
 			
 			<div id="fb_iframe">
-				<iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fteamsupraiitpatna&amp;width=300&amp;height=600&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=416206288509930" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; height: 700px;" allowtransparency="true"></iframe>
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitpmotorsports&tabs=timeline&width=340&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; height: 700px;" allowtransparency="true"></iframe>
 			</div>
 		</div>
 
@@ -288,7 +289,7 @@
 			Bihta - 801103,
 			Patna, Bihar.
 			<br>
-			Mobile: +91-9413182945
+			Mobile: +91-9661190910
 			<br>
 			Email: iitpmotorsports@gmail.com 
 		</div>
