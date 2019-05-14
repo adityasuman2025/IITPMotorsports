@@ -260,7 +260,7 @@
 		<br>
 
 		<!-- <a target ="_blank" href="http://www.ktm.com/in/"><img class="top_entry" src="img/spons/ktm.jpg"/></a> -->
-		<a target ="_blank" href="http://bseidc.in/"><img class="top_entry" src="img/spons/bseidc.png"/></a>
+		<a target ="_blank" href="http://bseidc.in/"><img class="top_entry" src="img/spons/bs.jpeg"/></a>
 		<a target ="_blank" href="https://nationalinsuranceindia.nic.co.in/"><img class="top_entry" src="img/spons/nic.jpg"/></a>
 		<br>
 
