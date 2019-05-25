@@ -143,7 +143,7 @@
 				<a href="http://iitpmotorsports.in"><img src="img/supra.png"/></a>
 				<br>
 				IITP Motorsports, is a reputed team to design and manufacture one of the finest formula racing cars from India. Eventually, our car shall only 
-				remain the best designed India car, but unfortunetly not the best manufactured one. 
+				remain the best designed India car, but unfortunately not the best manufactured one. 
 				<br>
 				Team from IIT Patna is taking part in SUPRA SAEINDIA since 2014. The project puts forward the task of designing, manufacturing,
 				raising funds, marketing, logistics, extensive testing and racing, on the shoulders of our dedicated, skilled and determined team members.
