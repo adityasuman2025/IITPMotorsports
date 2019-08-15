@@ -78,15 +78,27 @@
 		<ul class="slider">
 
 			<li>
-				<img src="img/pic1.jpg"/>
+				<img src="img/pic13.jpg"/>
 				<div id="tags">
-					
+					Team 2k19
 				</div>
 			</li>
 			<li>
-
-				<img src="img/pic2.jpg"/>
+				<img src="img/pic12.jpg"/>
 				<div id="tags">
+					The Car
+				</div>
+			</li>
+			<li>
+				<img src="img/pic14.jpg"/>
+				<div id="tags">
+					TI Stickers
+				</div>
+			</li>
+			<li>
+				<img src="img/pic15.jpg"/>
+				<div id="tags">
+					Lined-Up for the Endurance
 				</div>
 			</li>
 			<li>
@@ -96,33 +108,9 @@
 				</div>
 			</li>
 			<li>
-				<img src="img/pic4.jpg"/>
+				<img src="img/pic16.jpg"/>
 				<div id="tags">
-					TI Stickers
-				</div>
-			</li>
-			<li>
-				<img src="img/pic5.jpg"/>
-				<div id="tags">
-					Ready for the Presentation
-				</div>
-			</li>
-			<li>
-				<img src="img/pic6.jpg"/>
-				<div id="tags">
-					The Car
-				</div>
-			</li>
-			<li>
-				<img src="img/pic7.jpg"/>
-				<div id="tags">
-					Lined-Up for the Endurance
-				</div>
-			</li>
-			<li>
-				<img src="img/pic8.jpeg"/>
-				<div id="tags">
-					Intro Session 2k17
+					Buddha International Circuit
 				</div>
 			</li>
 		</ul>
@@ -253,19 +241,21 @@
 <!------partners div------>
 	<div class="partners">
 		<h1 class="part_head">Our Sponsors</h1>
+		<a target ="_blank" href="http://www.rubanpatliputrahospital.com/"><img id="title_sponsor" class="top_entry"  src="img/spons/ruban.jpg"/></a>
 		<a target ="_blank" href="http://www.rodicconsultants.com/"><img id="title_sponsor" class="top_entry"  src="img/spons/rodic.png"/></a>
-		<br>
-		<div>Title Sponsor</div>
-		<br>
-
-		<!-- <a target ="_blank" href="http://www.ktm.com/in/"><img class="top_entry" src="img/spons/ktm.jpg"/></a> -->
-		<a target ="_blank" href="http://bseidc.in/"><img class="top_entry" src="img/spons/bs.jpeg"/></a>
 		<a target ="_blank" href="https://nationalinsuranceindia.nic.co.in/"><img class="top_entry" src="img/spons/nic.jpg"/></a>
+		<a target ="_blank" href="http://brpnn.bih.nic.in/"><img id="title_sponsor" class="top_entry"  src="img/spons/brpnn.jpg"/></a>
 		<br>
-
-		<a target ="_blank" href="https://www.livehindustan.com/"><img class="top_entry" src="img/spons/hindustan.jpg"/></a>
+		<div>Title Sponsors</div>
 		<br>
-		<div>Media Partner</div>
+		<a target ="_blank" href="http://www.bsedc.bihar.gov.in/"><img class="top_entry" src="img/spons/beltron.png"/></a>
+		<br>
+		<div>Power Sponsor</div>
+		<br>
+		<a target ="_blank" href="https://www.kecrpg.com/"><img class="top_entry" src="img/spons/kec.png"/></a>
+		<br>
+		<div>Associate Sponsor</div>
+		<br>
 
 	</div>
 	<br><br>
